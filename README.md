@@ -31,7 +31,10 @@ This tutorial outlines how to implement the use of file sharing with various per
 <h2>File Sharing Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ys3rYH9.png" height="80%" width="80%" alt="Creating F0lders/Setting Permissions"/>
+<img src="https://i.imgur.com/O2fWxxO.png" height="80%" width="80%" alt="Creating F0lders/Setting Permissions 1"/>
+<img src="https://i.imgur.com/GmFz2H5.png" height="80%" width="80%" alt="Creating F0lders/Setting Permissions 2"/>
+<img src="https://i.imgur.com/ojoCztZ.png" height="80%" width="80%" alt="Creating F0lders/Setting Permissions 3"/>
 </p>
 <p>
 In the first step, we created four folders named READ-ACCESS, WRITE-ACCESS, NO-ACCESS, AND ACCOUNTING.  We shared READ-ACCESS with "Domain Users" group, and the permission level is set at "Read".  We shared WRITE-ACCESS with "Domain Users" group, and the permission level is set at "Read/Write".  We shared NO-ACCESS with "Domain Admins" group, with the permission level set at "Read/Write". (Nothing is done to ACCOUNTING folder for now).
