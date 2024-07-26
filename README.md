@@ -34,7 +34,7 @@ This tutorial outlines how to implement the use of file sharing with various per
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the first step, we created four folders named READ-ACCESS, WRITE-ACCESS, NO-ACCESS, AND ACCOUNTING.  We shared READ-ACCESS with "Domain Users" group, and the permission level is set at "Read".  We shared WRITE-ACCESS with "Domain Users" group, and the permission level is set at "Read/Write".  We shared NO-ACCESS with "Domain Admins" group, with the permission level set at "Read/Write". (Nothing is done to ACCOUNTING folder for now).
 </p>
 <br />
 
