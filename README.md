@@ -8,7 +8,7 @@ This tutorial outlines how to implement the use of file sharing with various per
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How to Implement the use of file sharing between Azure Virtual Machines](https://www.youtube.com)
+- ### [YouTube: How to Implement the use of file sharing between Azure Virtual Machines](https://www.youtube.com/watch?v=RgsrQQPN09U)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -42,7 +42,10 @@ In the first step, inside of DC-1, we created four folders named READ-ACCESS, WR
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Accessing Folders as Domain User from Client-1"/>
+<img src="https://i.imgur.com/Jes2otu.png" height="80%" width="80%" alt="Accessing Folders as Domain User from Client-1"/>
+<img src="https://i.imgur.com/tzezgHi.png" height="80%" width="80%" alt="Accessing Folders as Domain User from Client-1a"/>
+<img src="https://i.imgur.com/SG9B7Qd.png" height="80%" width="80%" alt="Accessing Folders as Domain User from Client-1b"/>
+<img src="https://i.imgur.com/9SUhfHl.png" height="80%" width="80%" alt="Accessing Folders as Domain User from Client-1c"/>
 </p>
 <p>
 In the 2nd step, inside of Client-1 as one of the random domain users, we found the file directory to the shared files from DC-1.  When we try to access the WRITE-ACCESS folder as the user on Client-1, we can read and also edit/change the file as we wish.  When try to access the READ-ACCESS folder with the same user, we can only read the contents of the file, but we cannot edit or change anything inside of the file.  When we try to access the NO-ACCESS folder, we cannot look into or access the contents of the folder at all.  This because the "Domain Users" group was not added on as users that are allowed access to it.
