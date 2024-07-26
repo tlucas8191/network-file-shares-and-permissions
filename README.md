@@ -22,14 +22,13 @@ This tutorial outlines how to implement the use of file sharing with various per
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Steps for File Sharing w/ Permissions</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create sample file shares with specific permissions
+- Attempt to access file shares as a normal domain user
+- Create an “ACCOUNTANTS” Security Group, assign permissions, and test access to each file
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>File Sharing Steps</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
