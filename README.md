@@ -53,7 +53,13 @@ In the 2nd step, inside of Client-1 as one of the random domain users, we found 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LTNYCds.png" height="80%" width="80%" alt="Assigning Permissions to Accountants F0lder"/>
+<img src="https://i.imgur.com/v8ChL5j.png" height="80%" width="80%" alt="Assigning Permissions to Accountants F1lders"/>
+<img src="https://i.imgur.com/P0DjoAU.png" height="80%" width="80%" alt="Assigning Permissions to Accountants F2lder"/>
+<img src="https://i.imgur.com/555Vltq.png" height="80%" width="80%" alt="Assigning Permissions to Accountants F3lders"/>
+<img src="https://i.imgur.com/84t9p4S.png" height="80%" width="80%" alt="Assigning Permissions to Accountants F4lder"/>
+<img src="https://i.imgur.com/784kD1H.png" height="80%" width="80%" alt="Assigning Permissions to Accountants F5lders"/>
+<img src="https://i.imgur.com/jTyejz0.png" height="80%" width="80%" alt="Assigning Permissions to Accountants F6lder"/>
 </p>
 <p>
 In the last step, inside of  DC-1, in Active Directory,  we created a security group called “Accountants”.  Then, in the “accounting” folder that we created earlier, we shared the contents on the folder with the same security group named “Accountants”,  with the permissions of “READ/WRITE”.  This action gives any user inside of the "Accountants" group the ability to read and edit/change files with the "Accounting" folder.  Inside of Client-1, as one of the random users, we tried to access the accountants folder, but it failed, and we logged out of Client-1 as that user.  On DC-1, we made that same particular user a member of the “Accountants” Security Group.  We then signed back into Client-1 as the user,  tried to access the “accounting” shared folder in DC-1, and now we have access to the folder.  We can read, write, and edit files inside of the "accounting" folder as we wish.
