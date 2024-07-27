@@ -56,6 +56,9 @@ In the 2nd step, inside of Client-1 as one of the random domain users, we found 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the last step, inside of  DC-1, in Active Directory,  we created a security group called “Accountants”.  Then, in the “accounting” folder that we created earlier, we shared the contents on the folder with the same security group named “Accountants”,  with the permissions of “READ/WRITE”.  This action gives any user inside of the "Accountants" group the ability to read and edit/change files with the "Accounting" folder.  Inside of Client-1, as one of the random users, we tried to access the accountants folder, but it failed, and we logged out of Client-1 as that user.  On DC-1, we made that same particular user a member of the “Accountants” Security Group.  We then signed back into Client-1 as the user,  tried to access the “accounting” shared folder in DC-1, and now we have access to the folder.  We can read, write, and edit files inside of the "accounting" folder as we wish.
+
+
+
 </p>
 <br />
